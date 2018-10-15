@@ -3,7 +3,7 @@
 
 - new
 - priv/gh.env
-- TF_VAR_github_token=
+- TF_VAR_github_token= <assign_taken token>
 
 **OPS**
 - terraform fmt
