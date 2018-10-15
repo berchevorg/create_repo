@@ -5,7 +5,7 @@
 - priv/gh.env
 - TF_VAR_github_token= <assign_taken token>
 
-**OPS**
+**Terraform file instructions main.tf**
 - terraform fmt
 - terraform init
 - terraform plan
