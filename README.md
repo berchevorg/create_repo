@@ -1,6 +1,6 @@
 # name of the repo
 
-Testing terraform code with kitchen 
+Install Kitchen and testing terraform code with it 
 
 ## pre-requirements
 
