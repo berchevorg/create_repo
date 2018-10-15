@@ -6,16 +6,16 @@ variable "github_token" {
 # repo
 variable "repo" {
   description = "repo"
-  default     = "potato"
+  default     = "TF_VAR_repo"
 }
 
 # Configure the GitHub Provider
 provider "github" {
   token        = "${var.github_token}"
-  organization = "VisitBG"
+  organization = "berchevorg"
 }
 
-resource "github_repository" "potato" {
+resource "github_repository" "TF_VAR_repo" {
   name        = "${var.repo}"
-  description = "My awesome potato"
+  description = "My awesome melon"
 }
