@@ -1,9 +1,9 @@
 **TOKEN**
-[Link to github.com/settings/tokens!](https://github.com/settings/tokens)
+- [Link to github.com/settings/tokens](https://github.com/settings/tokens)
 
-new
-priv/gh.env
-TF_VAR_github_token=
+- new
+- priv/gh.env
+- TF_VAR_github_token=
 
 **OPS**
 - terraform fmt
