@@ -1,11 +1,39 @@
-**TOKEN**
-- [Link to github.com/settings/tokens](https://github.com/settings/tokens)
+# name of the repo
 
-- create new token
-- priv/gh.env
-- TF_VAR_github_token= <assign_taken token>
+goal of the repo here
 
-**Terraform file instructions main.tf**
+## pre-requirements
+
+all pre-requirementa to make this work here
+
+### os settings
+
+
+1. sudo apt-get install rbenv  ruby-dev ruby-bundler
+2. add the following to your ~/.bash_profile:
+	```
+	eval "$(rbenv init -)"
+	true
+	export PATH="$HOME/.rbenv/bin:$PATH"
+	```
+3. bundle install
+
+
+### token
+
+
+In order this code to work, we need a github token as a variable.
+This allow Terraform to create the new repository.
+
+- create new [token](https://github.com/settings/tokens)
+- ypu can create a file `priv/gh.env` with the following content:
+```
+export TF_VAR_github_token= <assign_taken token>
+```
+- source the variable with `source priv/gh.env`
+
+## using this code
+
 - terraform fmt
 - terraform init
 - terraform plan
@@ -15,17 +43,9 @@
 
 
 
-**TEST**
-1. update gemfile to 2.5.1 
-2. sudo apt-get install rbenv 
-3. sudo apt-get install ruby-dev 
-4. sudo apt-get installruby-bundler
-5. add the following to your ~/.bash_profile:
-	```
-	eval "$(rbenv init -)"
-	true
-	export PATH="$HOME/.rbenv/bin:$PATH"
-	```
-6. bundle install
-7. bundle exec kitchen list
+## testing the code
+
+```
+bundle exec kitchen list
+```
 
