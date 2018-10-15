@@ -16,15 +16,16 @@
 
 
 **TEST**
-- update gemfile to 2.5.1 
-- sudo apt-get install rbenv 
-- sudo apt-get install ruby-dev 
-- sudo apt-get installruby-bundler
-- add the following to your ~/.bash_profile:
+1. update gemfile to 2.5.1 
+2. sudo apt-get install rbenv 
+3. sudo apt-get install ruby-dev 
+4. sudo apt-get installruby-bundler
+5. add the following to your ~/.bash_profile:
+	```
 	eval "$(rbenv init -)"
 	true
 	export PATH="$HOME/.rbenv/bin:$PATH"
-	
-- bundle install
-- bundle exec kitchen list
+	```
+6. bundle install
+7. bundle exec kitchen list
 
