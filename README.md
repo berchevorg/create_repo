@@ -1,7 +1,7 @@
 **TOKEN**
 - [Link to github.com/settings/tokens](https://github.com/settings/tokens)
 
-- new
+- create new token
 - priv/gh.env
 - TF_VAR_github_token= <assign_taken token>
 
