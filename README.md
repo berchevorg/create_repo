@@ -1,10 +1,12 @@
 # name of the repo
 
-goal of the repo here
+Testing terraform code with kitchen 
 
 ## pre-requirements
 
-all pre-requirementa to make this work here
+all pre-requirementa to make this work here:
+- Linux OS (tested with Ubuntu 18.04)
+- Terraform installed
 
 ### os settings
 
